@@ -1,8 +1,11 @@
 baseURL = 'https://supertsumu.github.io/'
 languageCode = 'en-us'
 title = 'SuperTsumu'
+uglyURLs = false
+canonifyURLs = true
+enableRobotsTXT = false
 
-themes="hugo-theme-shell"
+theme = "hugo-theme-shell"
 
 [markup.goldmark.renderer]
 unsafe = true
